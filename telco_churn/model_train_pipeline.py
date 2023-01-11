@@ -1,9 +1,11 @@
+# Databricks notebook source
 from sklearn.compose import make_column_selector, ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 
+# COMMAND ----------
 
 class ModelTrainPipeline:
 
@@ -33,3 +35,4 @@ class ModelTrainPipeline:
         ])
 
         return pipeline
+
